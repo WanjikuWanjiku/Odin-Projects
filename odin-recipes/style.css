@@ -24,7 +24,14 @@ hr {
 	margin-top: 25px;
 }
 
+
+
+
+
+
+
 /*Navigation Sytling*/
+
 nav ul{
     list-style-type:none;
     margin:0;
@@ -44,6 +51,7 @@ nav ul{
     display:block;
     padding:10px;    
 }
+
 
 .bottom-navigation a{ 
     padding:10px;
