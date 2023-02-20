@@ -25,13 +25,19 @@ hr {
 }
 
 
+.top-navigation ul{
+    display: flex;
+    list-style-type:none;
+    justify-content: right;
+}
 
-
-
+.top-navigation li{
+    padding: 0 10px;
+}
 
 
 /*Navigation Sytling*/
-
+/*
 nav ul{
     list-style-type:none;
     margin:0;
@@ -51,20 +57,30 @@ nav ul{
     display:block;
     padding:10px;    
 }
+*/
 
 
-.bottom-navigation a{ 
+
+.bottom-navigation a DISABLED{ 
     padding:10px;
 }
 
-.bottom-navigation{
+.bottom-navigation DISABLED{
     display:block;
     margin-left: auto;
     width:max-content; /*aligns the navigation to the center of the page*/
     padding-top: 10px;
 }
-
 /*End of Navigation Style*/
+
+.bottom-navigation{
+    display:flex;
+    justify-content: right;   
+}
+
+.bottom-navigation a{
+    padding: 0 10px;
+}
 
 h1, h2 {
     text-align: center;
