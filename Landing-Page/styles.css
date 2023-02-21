@@ -1,0 +1,40 @@
+.page-top, .hero-section, footer {
+    background-color: #1F2937;
+}
+
+h1{
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    font-style: extra-bold;
+    color:#1F2937;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.logo { 
+    font-size:24px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+#quote {
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: light-italic;
+    color:#1F2937;
+}
