@@ -2,6 +2,11 @@ body, button {
     color: #F9FAF8;
 }
 
+
+header, #hero-section, footer {
+    background-color: #1F2937;
+}
+
 /* Format the header section to appear horizontally*/
 header, .logo, nav, ul{ 
     display: flex;
@@ -23,25 +28,16 @@ nav li{
 .logo {
     font-size: 24px;
 }
-/*End of header section formatting*/
+/* End of header section formatting*/
 
 
-header, #hero-section, footer {
-    background-color: #1F2937;
-}
+/* Start of Hero section*/
 
 h1{
     font-size: 48px;
     font-style: extra-bold;
+    color: #F9FAF8;
 }
-
-h2 {
-    font-size: 36px;
-    font-style: extra-bold;
-    color:#1F2937;
-}
-
-/*Hero section*/
 
 #hero-section {
     display:flex;
@@ -57,7 +53,6 @@ h2 {
     color: #E5E7EB;
     margin-left: 150px;
     padding: 120px 20px;
-
 
 }
 
@@ -83,6 +78,51 @@ button {
     border-radius: 8px;
     padding: 4px 25px;
 }
+/* End of hero section */
+
+
+/* Start of More Information Section */
+
+#more-information{
+    margin-top: 40px;
+    
+}
+
+h2 {
+    font-size: 36px;
+    font-style: extra-bold;
+    color:#1F2937;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.information {
+    display: flex;
+}
+
+.information {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.thumbnail img {
+    width: 80%;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 0 4px;
+}
+
+.thumbnail p{
+    color:#1F2937;
+    padding: 0 15px;
+    align-items: center;
+}
+
+/* End of More Information Section*/
 
 #quote {
     background-color: #E5E7EB;
