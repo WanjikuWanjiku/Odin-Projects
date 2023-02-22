@@ -94,12 +94,10 @@ h1{
     border: none;
 }
 
-button {
-    background-color: #3882F6;
-    border: 1px solid white;
-    border-radius: 8px;
-    padding: 4px 25px;
+.sign-up:hover, #hero-button:hover {
+    border : 2px solid white;
 }
+
 /* End of hero section */
 
 
@@ -178,6 +176,13 @@ blockquote {
 
 .quote figcaption a {
     color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 4px 25px;
 }
 
 /* End of quote section */
