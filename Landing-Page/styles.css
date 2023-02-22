@@ -191,3 +191,16 @@ blockquote {
 }
 
 /* End of Call to action section */
+
+/* Footer section */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    color: #E5E7EB
+}
+
+
