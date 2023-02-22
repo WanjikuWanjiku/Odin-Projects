@@ -28,6 +28,25 @@ nav li{
 .logo {
     font-size: 24px;
 }
+
+.menu a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.menu a:active {
+    color: #F9FAF8;
+}
+
+.menu a:hover {
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.menu a:visited {
+    color: #F9FAF8;
+}
+
 /* End of header section formatting*/
 
 
@@ -200,7 +219,7 @@ footer {
 }
 
 footer a{
-    color: #E5E7EB
+    color: #F9FAF8;
 }
 
 
