@@ -124,12 +124,37 @@ h2 {
 
 /* End of More Information Section*/
 
-#quote {
+/*Quote Section */
+
+#quote-section {
+    width: 100%;
+    height: 100vh;
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width:80%;
+    
 }
 
 blockquote {
     font-size: 36px;
-    font-style: light-italic;
-    color:#1F2937;
+    font-weight: 100;
+    font-style: italic;
+    color:#1F2937; 
 }
+
+.quote figcaption {
+    float: right;
+}
+
+.quote figcaption a {
+    color: #1F2937;
+}
+
+
+/* End of quote section */
+
